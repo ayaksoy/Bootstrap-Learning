@@ -1,0 +1,6 @@
+.container-fluid{
+    padding: 0px !important;
+}
+.breadcrumb-item+.breadcrumb-item::before{
+    content: var(--bs-breadcrumb-divider, ">") !important;
+}
